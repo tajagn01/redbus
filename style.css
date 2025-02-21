@@ -313,15 +313,16 @@ body {
 }
 
 .train-booking {
+    margin-bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: white;
-    padding: 40px;
+    padding: 10px;
     width: 95%;
     height: 600px;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 20px auto;
     position: relative;
 }
 
@@ -720,4 +721,49 @@ h2 {
 .download-buttons img {
     width: 140px;
     margin: 0.5rem;
+}
+
+
+.global-presence {
+    margin-bottom: 50px;
+    margin-left: 125px;
+    width: 80%;
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.global-presence h2 {
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.countries {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.country p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
 }

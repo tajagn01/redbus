@@ -1,0 +1,660 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.rb_header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.rb_logo {
+    width: 5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.vertical_seperator {
+    width: 1px;
+    height: 20px;
+    background: #e0e0e0;
+    margin: 0 calc(4rem - 2rem) 0 4rem;
+}
+
+.rb_verticals {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rb_vertical {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0em 0.625rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    text-align: center;
+    position: relative;
+    width: 7rem;
+}
+
+.img_rb_vertical {
+    margin-top: 10px;
+    height: 1.25rem;
+    margin-bottom: 0.5rem;
+    filter: grayscale(1) brightness(0);
+    width: 5.25rem;
+    color: white;
+}
+
+.name_rb_vertical {
+    color: #1d1d1d;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+
+.rb_secondary_items {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+}
+
+.rb_secondary_item {
+    width: 50px;
+    display: flex;
+    place-items: flex-end;
+    gap: 8px;
+    font-weight: 500;
+    color: #1d1d1d;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.rb_secondary_items>li>img{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rb_secondary_item:hover {
+    color: #d84e55;
+}
+
+.hero_section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heroImgStyle {
+    width: 100%;
+    max-width: 2000px;
+    height: auto;
+}
+
+.hero {
+    background: url('https://s3.rdbuz.com/images/webplatform/india/HomeBannerNew.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 25px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* Search Box */
+.search-box {
+    width: 960px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    margin-top: 25px;
+}
+
+.input-group {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.input-group i {
+    width: 240px;
+    margin-right: 10px;
+    color: rgb(26, 25, 25);
+    height: 100px;
+    border-radius: 50px;
+}
+
+.input-group input {
+    width: 240px;
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.swap-icon {
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.search-btn {
+    width: 240px;
+    background: rgb(216 78 85);
+    color: white;
+    border: none;
+    padding: 11px 40px;
+    border-radius: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    height: 100px;
+}
+
+.search-btn:hover {
+    background: rgb(219, 78, 78);
+}
+
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Trending Offers Section */
+.trending-offers {
+    background: white;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow:  10px 10px 10px  rgba(8, 8, 8, 0.1);
+    margin: 20px auto;
+    width: 70%;
+    max-width: 1200px;
+    margin-top: -115px;
+}
+
+/* Header */
+.offers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.offers-header h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.view-all {
+    padding: 8px 15px;
+    border: 2px solid blue;
+    background: white;
+    color: blue;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.view-all:hover {
+    background: blue;
+    color: white;
+}
+
+/* Offers Container */
+.offers-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+/* Offer Card */
+.offer-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.offer-card .offer-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+}
+
+.offer-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.offer-details p {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+/* Coupon Code */
+.coupon-code {
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.coupon-code i {
+    margin-left: 5px;
+}
+
+/* Card Colors */
+.blue {
+    background: linear-gradient(to right, #0044cc, #007bff);
+}
+
+.green {
+    background: linear-gradient(to right, #007a4b, #2bb673);
+}
+
+.red {
+    background: linear-gradient(to right, #8b0000, #ff0000);
+}
+
+.dark-green {
+    background: linear-gradient(to right, #0a6d37, #1db954);
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Train Booking Section */
+.train-booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 40px;
+    /* border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    width: 95%;
+    height: 600px;
+    max-width: 1200px;
+    margin: 40px auto;
+    position: relative;
+}
+
+/* Left Side Content */
+.train-content {
+    width: 50%;
+}
+
+.train-content h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: normal;
+    color: #222;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Train Category */
+.train-category {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+.train-category img {
+    width: 30px;
+}
+
+/* Description */
+.train-description {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Benefits List */
+.train-benefits {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.train-benefits li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.train-benefits li img {
+    width: 24px;
+}
+
+/* Button */
+.train-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.train-button i {
+    font-size: 14px;
+}
+
+.train-button:hover {
+    background: darkred;
+}
+
+/* Right Side Image */
+.train-image {
+    width: 45%;
+    text-align: right;
+    position: relative;
+}
+
+.train-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+
+/* Container */
+.faq-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Heading */
+.faq-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* FAQ Tabs */
+.faq-tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.tab.active {
+    color: red;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+
+/* FAQ Content */
+.faq-content {
+    display: none;
+}
+
+.faq-content.active {
+    display: block;
+}
+
+/* FAQ Items */
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    background: white;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover {
+    background: #f8f8f8;
+}
+
+/* Icon */
+.icon {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Answer */
+.faq-answer {
+    display: none;
+    padding: 15px;
+    font-size: 14px;
+    color: #444;
+    border-top: 1px solid #ddd;
+}
+
+/* Open Answer */
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+.faq-item.open .icon {
+    transform: rotate(45deg);
+}
+
+
+.app-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d1524d;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Title */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Features */
+.features {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.checkmark {
+    font-size: 18px;
+    color: green;
+    margin-right: 10px;
+}
+
+/* Ratings */
+.ratings {
+    display: flex;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.store {
+    text-align: center;
+}
+
+.store strong {
+    font-size: 20px;
+}
+
+.store p {
+    font-size: 14px;
+    color: #555;
+}
+
+.store span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.divider {
+    width: 2px;
+    height: 40px;
+    background: #ccc;
+}
+
+/* Download Options */
+.download-options {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.qr-code p, .store-buttons p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.qr-code img {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.store-buttons {
+    margin-left: 20px;
+}
+
+.store-buttons img {
+    width: 140px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Image Section */
+.image-section img {
+    width: 220px;
+    border-radius: 10px;
+}
+

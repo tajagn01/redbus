@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -110,7 +108,6 @@ body {
     height: 80vh;
     display: flex;
     flex-direction: column;
-   
     align-items: center;
     text-align: center;
     color: white;
@@ -124,7 +121,6 @@ body {
     margin-top: 40px;
 }
 
-/* Search Box */
 .search-box {
     width: 960px;
     background: white;
@@ -189,8 +185,6 @@ body {
     background: rgb(219, 78, 78);
 }
 
-
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -198,7 +192,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Trending Offers Section */
 .trending-offers {
     background: white;
     padding: 45px;
@@ -210,7 +203,6 @@ body {
     margin-top: -115px;
 }
 
-/* Header */
 .offers-header {
     display: flex;
     justify-content: space-between;
@@ -239,7 +231,6 @@ body {
     color: white;
 }
 
-/* Offers Container */
 .offers-container {
     display: flex;
     gap: 15px;
@@ -247,7 +238,6 @@ body {
     padding-bottom: 10px;
 }
 
-/* Offer Card */
 .offer-card {
     flex: 1;
     min-width: 250px;
@@ -285,7 +275,6 @@ body {
     border-radius: 10px;
 }
 
-/* Coupon Code */
 .coupon-code {
     background: rgba(255, 255, 255, 0.2);
     display: inline-block;
@@ -300,7 +289,6 @@ body {
     margin-left: 5px;
 }
 
-/* Card Colors */
 .blue {
     background: linear-gradient(to right, #0044cc, #007bff);
 }
@@ -317,7 +305,6 @@ body {
     background: linear-gradient(to right, #0a6d37, #1db954);
 }
 
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -325,15 +312,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Train Booking Section */
 .train-booking {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: white;
     padding: 40px;
-    /* border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
     width: 95%;
     height: 600px;
     max-width: 1200px;
@@ -341,7 +325,6 @@ body {
     position: relative;
 }
 
-/* Left Side Content */
 .train-content {
     width: 50%;
 }
@@ -362,7 +345,6 @@ body {
     font-weight: bold;
 }
 
-/* Train Category */
 .train-category {
     display: flex;
     align-items: center;
@@ -379,14 +361,12 @@ body {
     width: 30px;
 }
 
-/* Description */
 .train-description {
     font-size: 16px;
     color: #444;
     margin-bottom: 20px;
 }
 
-/* Benefits List */
 .train-benefits {
     list-style: none;
     margin-bottom: 20px;
@@ -405,7 +385,6 @@ body {
     width: 24px;
 }
 
-/* Button */
 .train-button {
     background: red;
     color: white;
@@ -429,7 +408,6 @@ body {
     background: darkred;
 }
 
-/* Right Side Image */
 .train-image {
     width: 45%;
     text-align: right;
@@ -442,8 +420,6 @@ body {
     border-radius: 20px;
 }
 
-
-/* Container */
 .faq-container {
     width: 90%;
     max-width: 1000px;
@@ -451,7 +427,6 @@ body {
     padding: 20px;
 }
 
-/* Heading */
 .faq-container h1 {
     font-size: 28px;
     font-weight: bold;
@@ -459,7 +434,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* FAQ Tabs */
 .faq-tabs {
     display: flex;
     border-bottom: 2px solid #ddd;
@@ -482,7 +456,6 @@ body {
     font-weight: bold;
 }
 
-/* FAQ Content */
 .faq-content {
     display: none;
 }
@@ -491,7 +464,6 @@ body {
     display: block;
 }
 
-/* FAQ Items */
 .faq-item {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -517,13 +489,11 @@ body {
     background: #f8f8f8;
 }
 
-/* Icon */
 .icon {
     font-size: 20px;
     color: #666;
 }
 
-/* Answer */
 .faq-answer {
     display: none;
     padding: 15px;
@@ -532,7 +502,6 @@ body {
     border-top: 1px solid #ddd;
 }
 
-/* Open Answer */
 .faq-item.open .faq-answer {
     display: block;
 }
@@ -540,7 +509,6 @@ body {
 .faq-item.open .icon {
     transform: rotate(45deg);
 }
-
 
 .app-download {
     display: flex;
@@ -554,20 +522,17 @@ body {
     margin: 40px auto;
 }
 
-/* Content Wrapper */
 .content-wrapper {
     flex: 1;
     padding: 20px;
 }
 
-/* Title */
 h2 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* Features */
 .features {
     background: white;
     color: black;
@@ -589,7 +554,6 @@ h2 {
     margin-right: 10px;
 }
 
-/* Ratings */
 .ratings {
     display: flex;
     align-items: center;
@@ -624,7 +588,6 @@ h2 {
     background: #ccc;
 }
 
-/* Download Options */
 .download-options {
     display: flex;
     margin-top: 20px;
@@ -652,9 +615,109 @@ h2 {
     display: block;
 }
 
-/* Image Section */
 .image-section img {
     width: 220px;
     border-radius: 10px;
 }
 
+.app-install-container {
+    background-image: url("https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg");
+    background-size: cover;
+    background-position: right center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 48px;
+    padding: 2rem;
+    gap: 2rem;
+    color: #fff;
+    max-width: 1100px;
+    width: 90%;
+    background-color: #c24b47;
+    margin-left: 12%;
+}
+
+.app-heading {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.features-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    color: #222;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.feature img {
+    width: 20px;
+    height: 20px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    text-align: center;
+}
+
+.rating strong {
+    font-size: 18px;
+}
+
+.rating p {
+    font-size: 14px;
+}
+
+.rating span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.divider {
+    width: 2px;
+    height: 50px;
+    background-color: #ccc;
+}
+
+.qr-section,
+.download-section {
+    text-align: center;
+}
+
+.qr-section img {
+    width: 100px;
+    height: 100px;
+}
+
+.download-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.download-buttons img {
+    width: 140px;
+    margin: 0.5rem;
+}
